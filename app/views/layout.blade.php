@@ -1,535 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>51101108</title>
-        <link rel="stylesheet" type="text/css" href="style/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="style/css/main.css">
-        <script type="text/javascript" src="style/js/jquery.js"></script>
-        <script type="text/javascript" src="style/js/carouFredSel.js"></script>
-        <script type="text/javascript" src="style/js/easing.js"></script>
-        <script type="text/javascript" src="style/js/main.js"></script>
-    </head>
-    <body>
-
-        <!--  start header  -->
-        <header>
-            <div class="wrapper">
-                <div class="logo">
-                    <a href=""><img src="style/img/logo.png" alt="Resto" title=""/></a>
-                </div>
-
-                <nav>
-                    <ul>
-                        <!--<li><a href="" class="active">Home</a></li>-->
-                        <li><a href="">Our Story</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Reservations</a></li>
-                        <li><a href="">News</a></li>
-                        <li><a href="">Reviews</a></li>
-                    </ul>
-                </nav>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Bootstrap Mutipager Template - Maxop</title>
+    <!--GOOGLE FONT -->
+    
+    <!--BOOTSTRAP MAIN STYLES -->
+    <link href="style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src = "style/js/boostrap.min.js" type="text/javascript"></script>
+    <script src = "style/js/jquery.js"type="text/javascript"></script>
+</head>
+<!--END HEAD SECTION -->
+<body>
+    <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">YOUR LOGO</a>
             </div>
-        </header><!--  end header  -->
-
-
-        <!--  start hero  -->
-        <section class="hero">
-            <div class="caption">
-                <h3>This Template Is Awesome</h3>
-                <h4>
-                    <span class="rsep"></span>
-                    resto restaurant home page website template
-                    <span class="lsep"></span>
-                </h4>
-
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
             </div>
-        </section><!--  end hero  -->
 
+        </div>
+    </div>
+    <!--END NAV SECTION -->
+    <!-- HOME SECTION -->
 
-        <!--  start menu  -->
-        <section class="menu">
-            <div class="wrapper">
-                <div class="menu_title">
-                    <h2>The Menu</h2>
-                </div>
-
-                <div class="mean_menu">
-                    <!--  left menu row  -->
-                    <article class="lmenu">
-                        <ul>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Metus varius laoreet.</h3>
-                                    <p class="item_desc">Chicken, mozzarella cheese, onions.</p>
-                                </div>
-                                <h4 class="price">$62</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Donec sodales magna.</h3>
-                                    <p class="item_desc">Tuna, Sweetcorn, Cheese.</p>
-                                </div>
-                                <h4 class="price">$25</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Saugue velit cursus.</h3>
-                                    <p class="item_desc">Pineapple, Minced Beef, Cheese.</p>
-                                </div>
-                                <h4 class="price">$30</h4>
-                                <span class="separator"></span>
-                            </li>
-                        </ul>
-                    </article>
-
-                    <!--  right menu row  -->
-                    <article class="rmenu">
-                        <ul>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Arcu pede enim justo.</h3>
-                                    <p class="item_desc">Tuna, Sweetcorn, Cheese.</p>
-                                </div>
-                                <h4 class="price">$45</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Cras dapibussemper nisi.</h3>
-                                    <p class="item_desc">Pineapple, Minced Beef, Cheese.</p>
-                                </div>
-                                <h4 class="price">$32</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Quam semper libero.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$15</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Nam eget dui Etiam.</h3>
-                                    <p class="item_desc">Chicken, mozzarella cheese, onions.</p>
-                                </div>
-                                <h4 class="price">$35</h4>
-                                <span class="separator"></span>
-                            </li>
-                        </ul>
-                    </article>
-                </div>
-
-                <!--  hidden menu items  -->
-                <div class="hidden_items">
-                    <!--  left menu row  -->
-                    <article class="lmenu">
-                        <ul>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                        </ul>
-                    </article>
-
-                    <!--  right menu row  -->
-                    <article class="rmenu">
-                        <ul>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                            <li>
-                                <div class="item_info">
-                                    <h3 class="item_name">Voluptate cillum fugiat.</h3>
-                                    <p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
-                                </div>
-                                <h4 class="price">$50</h4>
-                                <span class="separator"></span>
-                            </li>
-                        </ul>
-                    </article>
-                </div>
-
-                <div class="load-more">
-                    <a href="#" id="more_items">
-                        show more
-                        <hr/>
-                        <span class="bottom_arrow"></span>
-                    </a>
-                </div>
+    <!-- SLIDER SECTION -->
+    <div id="banner">
+        <img src="style/img/ngoc_trinh.jpg">
+        <img src="style/img/ngoc_trinh.jpg">
+    </div>
+    <!-- END SLIDER SECTION -->
+    @yield('content')
+    <div id="footer">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Quick Information :</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+                <button type="submit" class="btn btn-primary">Get Quote</button>
             </div>
-        </section><!--  end menu  -->
-
-
-        <!--  start featured dishes  -->
-        <section class="featured_dishes">
-            <div class="wrapper">
-                <section class="info">
-                    <div class="title">
-                        <h3>Featured Dishes</h3>
-                        <span class="separator"></span>
+            <div class="col-md-4">
+                <h4>Need Help ? Write Us. </h4>
+                <hr>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" required="required" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" required="required" placeholder="Email address">
+                            </div>
+                        </div>
                     </div>
-                    <div class="slider_nav" id="slider_nav">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Submit Request</button>
+                            </div>
+                        </div>
                     </div>
-                </section>
-
-                <section class="dishes" id="dishes">
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish1.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Fugiat nulla sint</h2></a>
-                            <h3>$30</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish2.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Daute irure dolor</h2></a>
-                            <h3>$24</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish3.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Officia deserunt mollit</h2></a>
-                            <h3>$60</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish4.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Pim minim veniam</h2></a>
-                            <h3>$17</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish1.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Fugiat nulla sint</h2></a>
-                            <h3>$30</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish2.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Daute irure dolor</h2></a>
-                            <h3>$24</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish3.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Officia deserunt mollit</h2></a>
-                            <h3>$60</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish4.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Pim minim veniam</h2></a>
-                            <h3>$17</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish1.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Fugiat nulla sint</h2></a>
-                            <h3>$30</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish2.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Daute irure dolor</h2></a>
-                            <h3>$24</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish3.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Officia deserunt mollit</h2></a>
-                            <h3>$60</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="dishe_img">
-                            <a href="#"><img src="style/img/dish4.jpg" alt="" title=""/></a>					
-                        </div>
-                        <div class="dish_info">
-                            <a href="#"><h2>Pim minim veniam</h2></a>
-                            <h3>$17</h3>
-                        </div>
-                        <ul class="rating">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="no-star"></li>
-                        </ul>
-                    </article>
-
-                </section>
+                </form>
             </div>
-        </section><!--  end featured_dishes  -->
+            <div class="col-md-4">
+                <a href="#"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter-square fa-3x color-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus-square fa-3x color-google-plus"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square fa-3x color-linkedin"></i></a>
+                <a href="#"><i class="fa fa-pinterest-square fa-3x color-pinterest"></i></a>
+                <hr>
+                <p>
+                    103, New Street,<br>
+                    New York, USA.<br>
+                    Call: +23-00-89-009<br>
+                    Email: demo@yourdomain.com<br>
+                </p>
 
-
-        <!--  start gallery  -->
-        <section class="gallery">
-            <div class="wrapper">
-                <section class="info">
-                    <div class="title">
-                        <h3>The Gallery</h3>
-                        <span class="separator"></span>
-                    </div>
-                </section>
-
-                <div class="media">
-                    <section>
-                        <a href="#">
-                            <img src="style/img/img1.jpg" alt="" title=""/>
-                        </a>
-                    </section>
-
-                    <section>
-                        <div class="hhalf">
-                            <a href="#">
-                                <img src="style/img/img2.jpg" alt="" title=""/>
-                            </a>
-                        </div>
-                        <div class="hhalf">
-                            <a href="#">
-                                <img src="style/img/img3.jpg" alt="" title=""/>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section>
-                        <div class="hhalf">
-                            <a href="#">
-                                <img src="style/img/img4.jpg" alt="" title=""/>
-                            </a>
-                        </div>
-                        <div class="hhalf">
-                            <a href="#">
-                                <img src="style/img/img5.jpg" alt="" title=""/>
-                            </a>
-                        </div>
-                    </section>
-                </div>
+                2014 www.yourdomain.com | All Right Reserved
             </div>
-        </section><!--  end gallery  -->
+        </div>
 
 
-        <!--  start footer  -->
-        <footer>
-            <div class="wrapper">
-                <!-- adresse1  -->
-                <section class="adress">
-                    <p>New York Restaurant</p> 
-                    <p class="location">3926 Anmoore Road<br/>
-                        New York, NY 10014</p>
-                    <p class="phone">718-749-1714</p>
-                </section>
-
-                <!--  adress2  -->
-                <section class="adress">
-                    <p>France Restaurant</p>
-                    <p class="location">68, rue  de la Couronne<br/>
-                        75002 PARIS </p>
-                    <p class="phone">02.94.23.69.56</p>
-                </section>
-
-                <!--  footer navigation  -->
-                <section class="footer_nav">
-                    <nav>
-                        <ul>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Careers</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </nav>
-                </section>
-
-                <!--  footer copyrights  -->
-                <section class="copyrights">
-                    <img src="style/img/footer_logo.png" class="footer_logo" alt="" title="">
-                    <p>© All Rights Reserved 2014.</p>
-                    <p>Find  More at <a href="http://pixelhint.com">Pixelhint.com</a></p>	
-                </section>
-            </div>
-        </footer><!--  end footer  -->
-
-    </body>
+    </div>
+</body>
 </html>
