@@ -2,33 +2,62 @@
 @section('content')
 <div class="container">
         <div class="row main-low-margin text-center">
-            <div class="col-md-4 col-sm-4">
-                <div class="circle-body"><i class="fa fa-camera fa-5x  icon-set"></i></div>
-                <h3>TESTED DESIGN</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                </p>
+            <div id = "product_row1">                            
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class = "images" src="style/img/dish1.jpg">
+                        <div class="caption">                                   
+                            <p><a href="#" class="btn btn-primary" role="button">Chi tiet</a></p>
+                        </div>
+                    </div>
+                </div>    
+                                    
+                <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img class = "images" src="style/img/dish2.jpg">
+                            <div class="caption">                                            
+                                <p><a href="#" class="btn btn-primary" role="button">Chi tiet</a></p>
+                            </div>
+                        </div>
+                </div>  
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class = "images" src="style/img/dish3.jpg">
+                        <div class="caption">                                           
+                            <p><a href="#" class="btn btn-primary" role="button">Chi tiet</a></p>
+                        </div>
+                    </div>                                                    
+                </div>        
             </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="circle-body"><i class="fa fa-dollar fa-5x  icon-set"></i></div>
-                <h3>SAVE YOUR MONEY</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                </p>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="circle-body"><i class="fa fa-envelope fa-5x  icon-set"></i></div>
-                <h3>WELL DOCUMENTED</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                </p>
-            </div>
+
+            <div id = "product_row2">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img class = "images" src="style/img/dish1.jpg" alt="...">
+                                        <div class="caption">                                            
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiet</a></p>
+                                        </div>
+                                    </div>
+                                </div>                        
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img class = "images" src="style/img/dish2.jpg" alt="...">
+                                        <div class="caption">                                           
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiet</a></p>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img class = "images" src="style/img/dish3.jpg" alt="...">
+                                        <div class="caption">                                            
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiet</a></p>
+                                        </div>
+                                    </div>
+                                </div>            
+            </div>            
 
         </div>
         <div class="row main-low-margin ">
