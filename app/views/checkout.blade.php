@@ -1,120 +1,94 @@
-@extends('app')
+@extends('layout')
 
 @section('content')
-	<!-- Breadcrumbs -->
-    <section class="container">
-      <nav class="breadcrumbs"> <a href="{{ url('/')}}">Home</a> <span class="divider">›</span>Thanh Toán</nav>
-    </section>
-    <!-- //end Breadcrumbs --> 
+	<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <link href="/style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/style/css/private.css" rel="stylesheet" />
+    <script src = "/style/js/boostrap.min.js" type="text/javascript"></script>
+    <script src = "/style/js/jquery.js"type="text/javascript"></script>
+    </head>
+        
     
-    <!-- Two column content -->
-    <section class="container">
-      <div class="row">
-        <section class="col-md-8 col-lg-8"> 
-          
-          <!-- Checkout -->
-          <section class="content-box">
-            <div class="checkout-page"> <img class="back img-responsive" src="images/shopping-cart-back.png" alt="">
-              <div class="box">
-                <h3>GIỎ HÀNG CỦA BẠN</h3>
-                <table>
-                  <thead>
-                    <tr class="hidden-xs">
-                      <th></th>
-                      <th>Sản Phẩm</th>
-                      <th>Đơn Giá</th>
-                      <th>Số Lượng</th>
-                      <th>Tổng Cộng</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-					@foreach(App\Order::get_Cart(Cookie::get('cart')) as $item)
-						<tr id="{{$item['product']->id}}">	
-						  <td><a href="#" class="remove-button visible-xs"><span class="icon-cancel-2 "></span></a><a href=""><img class="preview" src="{{ URL::asset('/') }}{{$item['product']->url}}"></a></td>
-						  <td><span class="td-name visible-xs">Product</span><a href="#">{{$item['product']->name}}</a></td>
-						  <td><span class="td-name visible-xs">Price</span>{{$item['product']->price}}</td>
-						  <td><span class="td-name oldQuantity {{$item['product']->id}} visible-xs">{{$item['quantity']}}</span><div class="input-group quantity-control">
-							  <span class="form-control quantity {{$item['product']->id}}">{{$item['quantity']}}</span>
-							  </div>				  
-						  </td> 
-						  <td><span class="td-name visible-xs">Total</span><span class="lastprice {{$item['product']->id}}">{{$item['price']}}</span><span> 000VND</span></td>
-						</tr>
-					@endforeach
-                  </tbody>
-                </table>
-                <div class="pull-left"> <b class="title">Phí chuyển hàng:</b> Miễn Phí </div>
-                <div class="pull-right">
-                  <p><b class="title">Tổng Cộng Hóa Đơn:</b> <span class="price">{{App\Order::total_price(Cookie::get('cart'))}}</span> 000 VND</p>
-                </div>
-                <div class="clearfix"></div>
-				<?php if(App\Order::number_items(Cookie::get('cart')) != 0) { ?>
-					<form action="#" id="mailForm">
-						
-					   <div class="form-group">
-						<label class="light">TÊN<span class="required"> *</span></label>
-						<input type="text" id="name" name ="name" class="form-control" required  >
-					  </div>
-					  <div class="form-group">
-						<label class="light">ĐỊA CHỈ EMAIL<span class="required"> *</span></label>
-						@if(!Auth::check())
-							<input type="email" id="email" name ="email" class=form-control">
-						@else
-							<input type="email" id="email" name ="email" class="form-control" value="{{Auth::user()->email}}" disabled>
-						@endif
-					  </div>
-					  <button type="submit" src="{{ URL::asset('/') }}" class="btn btn-mega">THANH TOÁN</button>
-					  <img class="loading" src="{{ URL::asset('/') }}images\loader.gif">
-					</form>
-				<?php } else echo "<h5>GIỎ HÀNG CỦA BẠN TRỐNG</h5>"; ?> 
-				<h5 class="mailNotification"></h5>
-              </div>
-            </div>
-          </section>
-          
-          <!-- //end Shopping cart --> 
-          
-        </section>
-        <aside class="col-md-4 col-lg-4 shopping_cart-aside"> 
-          
-          <!-- Coupon -->
-          <section class="container-widget">
-            <h3>Voucher</h3>
-            <form role="form">
-              <div class="form-group">
-                <label for="coupon">Nhập mã voucher của bạn để nhận 10% giảm giá</label>
-                <input type="email" class="form-control input-sm" id="coupon">
-              </div>
-              <button type="submit" class="btn btn-mega">Áp Dụng Voucher</button>
-            </form>
-          </section>
-          <!-- //end Coupon --> 
-          
-          <!-- Estimate shipping -->
-          <section class="container-widget">
-            <h3>VẬN CHUYỂN</h3>
-            <form role="form" id="addressForm">
-              <div class="form-label">Điền thông tin nơi nhận hàng</div>
-              <div class="form-group-sm btn-select btn-select-xl btn-select-wide"> <a href="#" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"> <span class="value">Tp.Hồ Chí Minh</span> <span class="caret min"></span> </a>
-                <ul class="dropdown-menu">
-                  <li>Tp.Hồ Chí Minh</li>
-                </ul>
-              </div>
-              <div class="form-group-sm btn-select btn-select-xl btn-select-wide"> <a href="#" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"> <span class="value">Quận 10</span> <span class="caret min"></span> </a>
-                <ul class="dropdown-menu">
-                  <li>Quận 10</li>
-                </ul>
-              </div>
-              <div class="form-group">
-                <input type="text" name="address" id="address" class="form-control input-sm"  value="Địa Chỉ">
-              </div>
-              <button type="submit" class="btn btn-mega">Đăng Ký</button>
-            </form>
-          </section>
-          <!-- //end Estimate shipping --> 
-          
-        </aside>
-      </div>
-    </section>
+    <body>
+    	<h1>Hóa Đơn Của bạn </h1>
+        <form>
+        	<table class="table">
+            	<tr>
+                	<td class="col-md-2"> Khách Hàng :</td>
+                    <td><input type="text" class="form-control" id="exampleInputName" placeholder="Nhập Tên"></td>
+                </tr>
+                </tr>
+                <tr>
+                	<td class="col-md-2"> Địa Chỉ :</td>
+                    <td><input type="text" class="form-control" id="exampleInputAddress" placeholder="Nhập Địa Chỉ"></td>
+                </tr>
+                </tr>
+                <tr>
+                	<td class="col-md-2">Số Điện Thoại :</td>
+                    <td><input type="number" size=" 11" class="form-control" id="exampleInputNumber" placeholder="Nhập SDT"></td>
+                </tr>
+                
+    
+
+                <tr>
+                	<td class="col-md-2"> Email:</td>
+                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nhập email"></td>
+                </tr>
+        	
+            	<tr>
+                	<td class="col-md-2"> Đặt Tiệc :</td>
+                    <td><select name="Đặt Tiệc ">
+                    	<option value="Sinh Nhật">Sinh Nhật</option>
+                        <option value="Sinh Nhật">Đám Cưới</option>
+                        <option value="Sinh Nhật">Đầy Tháng</option>
+                        <option value="Sinh Nhật">Đám Tang</option>
+                        <option value="Sinh Nhật">Đám Giỗ </option>
+                        </select></td>
+                  
+                </tr>
+                 <tr>
+                	<td class="col-md-2"> Số Lượng Bàn:</td>
+                   <td><input type="Số Lượng Bàn" class="form-control" id="exampleInputSLB" placeholder="Nhập Số Bàn Muốn Đặt"></td>
+                </tr>
+                 <tr>
+                 	<td class="col-md-2"> Giá Trị:</td>   
+                    <td><input type=""></td>          	               
+            	 </tr>    
+                 <tr>
+                	<td class="col-md-2"> Mức Đặt Cọc:</td>
+                    <td><select name="Mức Đặt Cọc: ">
+                    	<option value="20%">20%</option>
+                        <option value="50%">50%</option>
+                        <option value="100%">1000%</option>
+                        </select></td>
+                 </tr>
+                 <tr>
+                	<td class="col-md-2"> Chọn Tài Khoản</td>
+                    <td><select name="Mức Đặt Cọc: ">
+                    	<option value="Vietinbank">Vietinbank</option>
+                        <option value="Vietcombank">Vietcombank</option>
+                        <option value="DongAbank">DongAbank</option>
+                        <option value="Paypal">Paypal</option>
+                        </select></td>
+                  </tr>   
+                  <tr>
+                	<td class="col-md-2"> Số Tài Khoản:</td>
+                    <td><input type="text" class="form-control" id="exampleInputBank" placeholder="Nhập Số Tài Khoản"></td>
+                </tr>
+                  <tr>
+                	<td class="col-md-2">Mật Khẩu :</td>
+                    <td><input type="password" class="form-control" id="exampleInputpass" placeholder="Password"></td>
+                </tr>        	
+           </table>
+        </form>
+    </body>
+</html>
+
 @endsection
 
 @section('javascript')
