@@ -12,10 +12,11 @@
     <!--GOOGLE FONT -->
     
     <!--BOOTSTRAP MAIN STYLES -->
-    <link href="style/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="style/css/bootstrap-theme.min.css" rel="stylesheet">
-    <script src = "style/js/boostrap.min.js" type="text/javascript"></script>
-    <script src = "style/js/jquery.js"type="text/javascript"></script>
+    <link href="/style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/style/css/private.css" rel="stylesheet" />
+    <script src = "/style/js/boostrap.min.js" type="text/javascript"></script>
+    <script src = "/style/js/jquery.js"type="text/javascript"></script>
 </head>
 <!--END HEAD SECTION -->
 <body>
@@ -52,7 +53,9 @@
         <img src="style/img/ngoc_trinh.jpg">
     </div>
     <!-- END SLIDER SECTION -->
+    <div class="container">
     @yield('content')
+    </div>
     <div id="footer">
         <div class="row">
             <div class="col-md-4">
