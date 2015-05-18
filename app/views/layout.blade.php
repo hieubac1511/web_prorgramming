@@ -8,111 +8,157 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>Bootstrap Mutipager Template - Maxop</title>
+    <title>our Restaurant</title>
     <!--GOOGLE FONT -->
     
     <!--BOOTSTRAP MAIN STYLES -->
+
     <link href="style/css/bootstrap.min.css" rel="stylesheet" />
     <link href="style/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="style/css/private.css" rel="stylesheet" />
     <script src = "style/js/boostrap.min.js" type="text/javascript"></script>
     <script src = "style/js/jquery.js"type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+     <style>
+      #carousel-example-generic{
+        width: 1170px;
+        margin:50px 0 0 0px;
+        margin-right: 428px;￼ 
+        margin-left: 491px;
+        height: 30%;
+      }
+     </style>
 </head>
 <!--END HEAD SECTION -->
-<body>
+<body background="/style/img/background-full.jpg">
     <!-- NAV SECTION -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">YOUR LOGO</a>
+    <div class="header">
+        <div class="navbar navbar-inverse navbar-fixed-top menu">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">FOUR RESTAURANT</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">book a table</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="pricing.html">PRICING</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-
         </div>
-    </div>
-    <!--END NAV SECTION -->
-    <!-- HOME SECTION -->
+        
 
-    <!-- SLIDER SECTION -->
-    <div id="banner">
-        <img src="style/img/ngoc_trinh.jpg">
-        <img src="style/img/ngoc_trinh.jpg">
+<!--END NAV SECTION -->
+<!-- HOME SECTION -->
+
+<!-- SLIDER SECTION -->
+        <div class="container" style="padding: 0 0 0 0;">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+            <!-- Indicators -->
+                <ol class="carousel-indicators" >
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active" style="width: 1170px">
+                <img src="/style/img/food1.jpg" alt="..." width="1170" height="400">
+                <div class="carousel-caption">
+                  <h3>food1</h3>
+                </div>
+              </div>
+
+              <div class="item" style="width: 1170px">
+                <img src="style/img/food2.jpg" alt="..." width="1170" height="400">
+                <div class="carousel-caption">
+                  <h3>food2</h3>
+                </div>
+              </div>
+            
+              <div class="item" style="width: 1170px; height: 732px">
+                <img src="style/img/food3.jpg" alt="..." width="1170" height="400">
+                <div class="carousel-caption">
+                  <h3>food3</h3>
+                </div>
+              </div>
+          
+            </div>
+
+            <!-- Left and right controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" ></span>
+                </a>
+            </div>
+        </div>
     </div>
     <!-- END SLIDER SECTION -->
+    <div class="container padding">
     @yield('content')
-    <div id="footer">
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Quick Information :</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                </p>
-                <button type="submit" class="btn btn-primary">Get Quote</button>
+    </div>
+    <div class="container end">
+        <div class="row main-low-margin ">
+            <div class="col-md-4 col-sm-4 text-center">
+               <div class="grid_4">
+                    <h2 class="pad1">Welcome!</h2>
+                    <p class="mrg2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a class="a1" href="#">Read more</a>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h4>Need Help ? Write Us. </h4>
-                <hr>
-                <form>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" required="required" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" required="required" placeholder="Email address">
-                            </div>
-                        </div>
+            <div class="col-md-4 col-sm-4 text-center">
+                <div class="grid_4">
+                    <h2 class="pad1">About <span>US</span></h2>
+                    <div class="brd2">
+                        <span>Lorem ipsum dolor sit</span>
+                        Dolor sit amet conse ctetur adipisicing elit sed
                     </div>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary">Submit Request</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-4">
-                <a href="#"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter-square fa-3x color-twitter"></i></a>
-                <a href="#"><i class="fa fa-google-plus-square fa-3x color-google-plus"></i></a>
-                <a href="#"><i class="fa fa-linkedin-square fa-3x color-linkedin"></i></a>
-                <a href="#"><i class="fa fa-pinterest-square fa-3x color-pinterest"></i></a>
-                <hr>
-                <p>
-                    103, New Street,<br>
-                    New York, USA.<br>
-                    Call: +23-00-89-009<br>
-                    Email: demo@yourdomain.com<br>
-                </p>
 
-                2014 www.yourdomain.com | All Right Reserved
+                    <div class="brd2">
+                        <span>Dolor sit amet conse</span>
+                        Excepteur sint occaecat cupidatat non proident
+                    </div>
+
+                    <div class="brd2 mrg3">
+                        <span>Ipsum dolor sit amet conse</span>
+                        Amet conse ctetur adipisicing elit sed
+                    </div>
+                    <a class="a1" href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="grid_4">
+                    <div class="ban1">
+                        <h2>Book <span>A TABLE</span></h2>
+                        <p>Lorem ipsum dolor sit amet conse ctetur</p>
+                        <a class="a2" href="#">Book A Table</a>
+                    </div>
+                    
+                    <div class="ban2">
+                        <h2>Our <span>Contacts</span></h2>
+                        <p>Cepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                    </div>
             </div>
         </div>
 
+        </div>
 
+        </div>
     </div>
+    <div class="space-bottom"></div>    
 </body>
 </html>
