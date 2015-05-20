@@ -15,14 +15,12 @@
 
     <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/style/css/private.css" rel="stylesheet" />
-    <link href="style/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="style/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="style/css/private.css" rel="stylesheet" />
+    <link href="/style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/style/css/private.css" rel="stylesheet" />
     <script src = "/style/js/jquery.js"type="text/javascript"></script>
-    <script src = "style/js/boostrap.min.js" type="text/javascript"></script>
-    <script src = "style/js/jquery.js"type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src = "/style/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src = "/style/js/jquery.js"type="text/javascript"></script>
      <style>
       #carousel-example-generic{
         width: 1170px;
@@ -86,14 +84,14 @@
               </div>
 
               <div class="item" style="width: 1170px">
-                <img src="style/img/food2.jpg" alt="..." width="1170" height="400">
+                <img src="/style/img/food2.jpg" alt="..." width="1170" height="400">
                 <div class="carousel-caption">
                   <h3>food2</h3>
                 </div>
               </div>
             
               <div class="item" style="width: 1170px; height: 732px">
-                <img src="style/img/food3.jpg" alt="..." width="1170" height="400">
+                <img src="/style/img/food3.jpg" alt="..." width="1170" height="400">
                 <div class="carousel-caption">
                   <h3>food3</h3>
                 </div>

@@ -9,7 +9,7 @@
     <link href="/style/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/style/css/private.css" rel="stylesheet" />
-    <script src = "/style/js/boostrap.min.js" type="text/javascript"></script>
+    <script src = "/style/js/bootstrap.min.js" type="text/javascript"></script>
     <script src = "/style/js/jquery.js"type="text/javascript"></script>
     </head>
         
