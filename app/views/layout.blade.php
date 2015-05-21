@@ -42,18 +42,26 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+<<<<<<< HEAD
                     <a class="navbar-brand" href="#" style="background-image:url('/style/img/green_moon.jpg')">GREEN MOON</a>
 
+=======
+                    <a class="navbar-brand" href="/">FOUR RESTAURANT</a>
+>>>>>>> 73de6099b23ea9e036bd20fa921b47365f37be49
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">book a table</a></li>
+                        
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">SERVICES</a></li>
                         <li><a href="#">MENU</a></li>
                         <li><a href="#">GALLERY</a></li>
                         <li><a href="#">CONTACT</a></li>
+<<<<<<< HEAD
 
+=======
+                        <li><a href="<?php echo URL::action('CheckoutController@getCheckout') ?>">BOOK A TABLE</a></li>
+>>>>>>> 73de6099b23ea9e036bd20fa921b47365f37be49
                     </ul>
                 </div>
             </div>

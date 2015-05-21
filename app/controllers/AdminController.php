@@ -1,20 +1,35 @@
 <?php
 
-class AdminController extends BaseController{
+class AdminController extends BaseController {
+
     public $layout = 'layout';
+
     public function getLogin() {
         $data = array();
         $this->layout->nest("content", "login", $data);
     }
+
     function postPanel() {
         $data = array();
         $account = Input::get('account');
         $password = Input::get('password');
         if (($account == "admin") && ($password == "admin"))
-            return $this->layout->nest('content','panel',$data);
-        else return "wrong password";
+            return $this->layout->nest('content', 'panel', $data);
+        else
+            return "wrong password";
     }
-    function insertNewDishToDatabase($name, $description, $price, $imgurl){
+
+    function getFirstFeatures() {
+        $data = array();
+        $this->layout->nest('content', 'first-features', $data);
+    }
+
+    function getSecondFeatures() {
+        $data = array();
+        $this->layout->nest('content','second-features',$data);
+    }
+
+    function insertNewDishToDatabase($name, $description, $price, $imgurl) {
         $dish = new Menu();
         $dish->name = $name;
         $dish->description = $description;
@@ -22,6 +37,7 @@ class AdminController extends BaseController{
         $dish->imgurl = $imgurl;
         $dish->save();
     }
+
     function postInsertNewDish() {
         $name = Input::get('name');
         $description = Input::get('description');
@@ -30,6 +46,5 @@ class AdminController extends BaseController{
         $this->insertNewDishToDatabase($name, $description, $price, $imgurl);
         return "success";
     }
+
 }
-
-

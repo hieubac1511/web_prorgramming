@@ -11,16 +11,15 @@ class CreateBillsTable extends Migration {
      * @return void
      */
     public function up() {
-        Schema::create('orders', function($table) {
+        Schema::create('bills', function($table) {
             $table->increments('id');
-            $table->string('customer_name');
-            $table->string('customer_address');
-            $table->integer('customer_phone');
-            $table->string('customer_email');
-            $table->string('order_type');
-            $table->integer('number_of_table');
+            $table->string('name');
+            $table->string('address');
+            $table->integer('phone');
+            $table->string('email');
+            $table->string('type');
+            $table->integer('numbers_of_table');
             $table->integer('price');
-            $table->float('deposit');
             $table->string('account_type');
             $table->string('account_number');
             $table->timestamps();
