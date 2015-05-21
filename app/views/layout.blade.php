@@ -43,16 +43,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">FOUR RESTAURANT</a>
+                    <a class="navbar-brand" href="/">FOUR RESTAURANT</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">book a table</a></li>
+                        
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">SERVICES</a></li>
                         <li><a href="#">MENU</a></li>
                         <li><a href="#">GALLERY</a></li>
                         <li><a href="#">CONTACT</a></li>
+                        <li><a href="<?php echo URL::action('CheckoutController@getCheckout') ?>">BOOK A TABLE</a></li>
                     </ul>
                 </div>
             </div>
