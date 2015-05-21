@@ -61,7 +61,7 @@
 
             <p>thịt bò (hoặc lợn, cừu…) được ướp dấm hoặc rượu, nước, rau thơm, gia vị, 
              để khoảng 3-10 ngày trước khi đem nấu.
-             Càng để lâu, thịt càng mềm và ngon. Sauerbraten thường  </p>
+             Càng để lâu, thịt càng mềm và ngon. Sauerbraten thường được ăn kèm bắp cải đỏ, bánh khoai tây hoặc khoai tây luộc  </p>
         </div>
     </div>
     <div class="row border">
@@ -70,7 +70,7 @@
 
             <p> Có thể nói đây là món ăn phổ biến nhất trong các gia đình ở Pháp,
              gồm thịt bò được hầm với nhiều loại rau củ khác nhau như cà rốt,
-              khoai tây, củ cải, hành… tùy theo từng thời  </p>
+              khoai tây, củ cải, hành… tùy theo từng thời điểm trong năm </p>
         </div>
         <div class="col-sm-4">
             <img src="/style/img/Pot-au-feu.jpg" class="img-rounded alignRight" alt="Cinque Terre" width="304" height="236" >

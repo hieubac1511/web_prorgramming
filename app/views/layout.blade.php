@@ -89,7 +89,7 @@
           </div>
         
           <div class="item" style="width: 1168px; height: 732px">
-            <img src="style/img/food3.jpg" alt="..." width="1168" height="400">
+            <img src="style/img/food3.jpg" alt="..." width="1168" height="800">
             <div class="carousel-caption">
               <h3>food3</h3>
             </div>
