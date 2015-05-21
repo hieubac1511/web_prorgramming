@@ -113,3 +113,13 @@ h3{
   border-right-style: inset;
   border-left-style: outset;
 }
+.border{
+  border-bottom-style: ridge;
+}
+.borderfooter{
+  border-left-style: ridge;
+  border-right-style: ridge; 
+  border-bottom-style: ridge;
+  border-top-style: ridge;
+  margin: auto;
+}

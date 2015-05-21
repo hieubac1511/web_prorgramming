@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
 
-    <div class="row">
+    <div class="row border " style="border-top-style: ridge;">
         <div class="col-sm-4">
             <img src="/style/img/vitbackinh.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" >
         </div>
@@ -15,7 +15,7 @@
             Đơn giãn là vì chúng chưa được thực hiện đúng quy trình từ nguồn nguyên liệu đến cách chế biến vịt.</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row border">
         <div class="col-sm-8 text">
            <h3>Jota (Croatia)</h3>
 
@@ -28,7 +28,7 @@
             <img src="/style/img/ivivu.jpg" class="img-rounded alignRight" alt="Cinque Terre" width="304" height="236" >
         </div>
     </div>
-    <div class="row">
+    <div class="row border">
         <div class="col-sm-4">
             <img src="/style/img/Goulash.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" >
         </div>
@@ -39,7 +39,7 @@
             Đây là món ăn truyền thống và một trong những biểu tượng của Hungary mà bạn không nên bỏ qua khi tới đây. </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row border">
         <div class="col-sm-8 text">
            <h3>Jota (Croatia)</h3>
 
@@ -52,7 +52,7 @@
             <img src="/style/img/Svickova.jpg" class="img-rounded alignRight" alt="Cinque Terre" width="304" height="236" >
         </div>        
     </div>
-    <div class="row">
+    <div class="row border">
         <div class="col-sm-4">
             <img src="/style/img/Sauerbraten.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" >
         </div>
@@ -64,7 +64,7 @@
              Càng để lâu, thịt càng mềm và ngon. Sauerbraten thường  </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row border">
         <div class="col-sm-8 text">
            <h3>Pot-au-feu (Pháp)</h3>
 
@@ -76,7 +76,7 @@
             <img src="/style/img/Pot-au-feu.jpg" class="img-rounded alignRight" alt="Cinque Terre" width="304" height="236" >
         </div>        
     </div>
-    <div class="row">
+    <div class="row border">
         <div class="col-sm-4">
             <img src="/style/img/Poronkaristys.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" >
         </div>
@@ -88,7 +88,7 @@
             Món này thường được ăn kèm với khoai tây nghiền, mứt Lingonberry và dưa chuột muối</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row border">
         <div class="col-sm-8 text">
            <h3>Moussaka (Hy Lạp):</h3>
 

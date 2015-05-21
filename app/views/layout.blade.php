@@ -36,18 +36,13 @@
     <div class="header">
         <div class="navbar navbar-inverse navbar-fixed-top menu">
             <div class="container" style="border-style:none;">
-                <div class="navbar-header">
+                <div class="navbar-header" style="width:200px;">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-<<<<<<< HEAD
-                    <a class="navbar-brand" href="#" style="background-image:url('/style/img/green_moon.jpg')">GREEN MOON</a>
-
-=======
-                    <a class="navbar-brand" href="/">FOUR RESTAURANT</a>
->>>>>>> 73de6099b23ea9e036bd20fa921b47365f37be49
+                    <a class="navbar-brand" href="/" >GREEN MOON</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -57,11 +52,7 @@
                         <li><a href="#">MENU</a></li>
                         <li><a href="#">GALLERY</a></li>
                         <li><a href="#">CONTACT</a></li>
-<<<<<<< HEAD
-
-=======
                         <li><a href="<?php echo URL::action('CheckoutController@getCheckout') ?>">BOOK A TABLE</a></li>
->>>>>>> 73de6099b23ea9e036bd20fa921b47365f37be49
                     </ul>
                 </div>
             </div>
@@ -121,14 +112,14 @@
     </div>
     <div class="container end">
         <div class="row main-low-margin ">
-            <div class="col-md-4 col-sm-4 text-center">
+            <div class="col-md-4 col-sm-4 text-center ">
                <div class="grid_4">
                     <h2 class="pad1">Welcome!</h2>
                     <p class="mrg2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <a class="a1" href="#">Read more</a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 text-center">
+            <div class="col-md-4 col-sm-4 text-center ">
                 <div class="grid_4">
                     <h2 class="pad1">About <span>US</span></h2>
                     <div class="brd2">
@@ -149,9 +140,9 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 ">
                 <div class="grid_4">
-                    <div class="ban1">
+                    <div class="ban1" >
                         <h2>Book <span>A TABLE</span></h2>
                         <p>Lorem ipsum dolor sit amet conse ctetur</p>
                         <a class="a2" href="#">Book A Table</a>
