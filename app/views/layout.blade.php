@@ -13,17 +13,16 @@
     
     <!--BOOTSTRAP MAIN STYLES -->
 
-    <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="/style/css/private.css" rel="stylesheet" />
-    <link href="/style/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="/style/css/private.css" rel="stylesheet" />
-    <script src = "/style/js/jquery.js"type="text/javascript"></script>
-    <script src = "/style/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src = "/style/js/jquery.js"type="text/javascript"></script>
+    <link href="style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="style/css/private.css" rel="stylesheet" />
+    <script src = "style/js/boostrap.min.js" type="text/javascript"></script>
+    <script src = "style/js/jquery.js"type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
      <style>
       #carousel-example-generic{
-        width: 1170px;
+        width: 1162px;
         margin:50px 0 0 0px;
         margin-right: 428px;￼ 
         margin-left: 491px;
@@ -36,14 +35,15 @@
     <!-- NAV SECTION -->
     <div class="header">
         <div class="navbar navbar-inverse navbar-fixed-top menu">
-            <div class="container">
+            <div class="container" style="border-style:none;">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">FOUR RESTAURANT</a>
+                    <a class="navbar-brand" href="#" style="background-image:url('/style/img/green_moon.jpg')">GREEN MOON</a>
+
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -53,60 +53,58 @@
                         <li><a href="#">MENU</a></li>
                         <li><a href="#">GALLERY</a></li>
                         <li><a href="#">CONTACT</a></li>
+
                     </ul>
                 </div>
             </div>
         </div>
-        
+    </div>
 
 <!--END NAV SECTION -->
 <!-- HOME SECTION -->
 
 <!-- SLIDER SECTION -->
-        <div class="container" style="padding: 0 0 0 0;">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
-            <!-- Indicators -->
-                <ol class="carousel-indicators" >
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
+    <div class="container" style="padding: 0 0 0 0;margin:auto;">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding: 0 0 0 0;margin:auto;">
+        <!-- Indicators -->
+            <ol class="carousel-indicators" >
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active" style="width: 1170px">
-                <img src="/style/img/food1.jpg" alt="..." width="1170" height="400">
-                <div class="carousel-caption">
-                  <h3>food1</h3>
-                </div>
-    <div class="container">
-    </div>
-              </div>
-
-              <div class="item" style="width: 1170px">
-                <img src="/style/img/food2.jpg" alt="..." width="1170" height="400">
-                <div class="carousel-caption">
-                  <h3>food2</h3>
-                </div>
-              </div>
-            
-              <div class="item" style="width: 1170px; height: 732px">
-                <img src="/style/img/food3.jpg" alt="..." width="1170" height="400">
-                <div class="carousel-caption">
-                  <h3>food3</h3>
-                </div>
-              </div>
-          
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active" style="width: 1168px; height: 732px">
+            <img src="/style/img/food1.jpg" alt="..." width="1168" height="400">
+            <div class="carousel-caption">
+              <h3>food1</h3>
             </div>
+          </div>
 
-            <!-- Left and right controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" ></span>
-                </a>
+          <div class="item" style="width: 1168px; height: 732px">
+            <img src="style/img/food2.jpg" alt="..." width="1168" height="400">
+            <div class="carousel-caption">
+              <h3>food2</h3>
             </div>
+          </div>
+        
+          <div class="item" style="width: 1168px; height: 732px">
+            <img src="style/img/food3.jpg" alt="..." width="1168" height="400">
+            <div class="carousel-caption">
+              <h3>food3</h3>
+            </div>
+          </div>
+      
+        </div>
+
+        <!-- Left and right controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" ></span>
+            </a>
         </div>
     </div>
     <!-- END SLIDER SECTION -->
