@@ -74,15 +74,9 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-          <div class="item active" style="width: 1168px; height: 732px">
-            <img src="/style/img/food1.jpg" alt="..." width="1168" height="400">
-<<<<<<< HEAD
-                      </div>
-=======
-            
-          </div>
->>>>>>> 3c840be98af537d429135b7fb94940f5c21d98af
-
+            <div class="item active" style="width: 1168px; height: 732px">
+              <img src="/style/img/food1.jpg" alt="..." width="1168" height="400">
+            </div>
           <div class="item" style="width: 1168px; height: 732px">
             <img src="/style/img/food2.jpg" alt="..." width="1168" height="400">
             
@@ -117,16 +111,7 @@
 người dân thành phố – đã tạo ấn tượng thật đặc biệt cho những ai một lần đến nơi này. 
 Khuôn viên sân vườn xanh mát khoe sắc nhiều chủng loại hoa phong lan tạo nên một thiên 
 nhiên trong lành giữa lòng thành phố. Vào buổi sáng ban mai, bạn có thể chọn cho mình 
-một góc vườn và ngồi thưởng thức những món điểm tâm Hongkong đặc sắc.
-
-Với phương châm lấy lợi ích của khách hàng làm mục đích hướng tới, Nhà hàng không chỉ 
-phục vụ các món điểm tâm đẹp về cách trang trí, mà còn đầy đủ dưỡng chất, tuân thủ 03 nguyên tắc ẩm thực của Phuthotourist: 
-hạn chế bột ngọt, giảm béo, tăng cường chất xơ…giúp quý khách có đủ năng lượng cần thiết để khởi đầu một ngày mới thành công.
-
-Nhà hàng Green Moon với khung cảnh nên thơ ấy cũng là nơi để bạn chia sẻ niềm vui 
-với gia đình và bạn bè bên những món ăn ngon đặc sắc, để những đối tác kinh doanh gặp nhau 
-thắt chặt mối giao thương. Và cũng đã có biết bao bạn trẻ gửi gắm niềm tin tổ chức tiệc cưới nơi đây. 
-Vẻ đẹp của loài hoa phong lan vừa dịu dàng, vừa lộng lẫy, kiêu sa làm xao xuyến tâm hồn những đôi</p>
+một góc vườn và ngồi thưởng thức những món điểm tâm Hongkong đặc sắc.</p>
                     <a class="a1" href="#">Read more</a>
                 </div>
             </div>
