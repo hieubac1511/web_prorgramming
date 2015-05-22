@@ -74,7 +74,16 @@
             </ol>
 
         <!-- Wrapper for slides -->
+		
         <div class="carousel-inner">
+		<div class="item" style="width: 1168px; height: 732px">
+            <img src="/style/img/slide1.jpg" alt="..." width="1168" height="800">
+			<div class="carousel-caption">
+				<h3 style="color:red;"><Chương Trình Khuyến Mãi</h3>
+				
+				
+           </div> 
+          </div>
             <div class="item active" style="width: 1168px; height: 732px">
               <img src="/style/img/food1.jpg" alt="..." width="1168" height="400">
             </div>
@@ -87,14 +96,7 @@
             <img src="/style/img/food3.jpg" alt="..." width="1168" height="800">
             
           </div>
-		  <div class="item" style="width: 1168px; height: 732px">
-            <img src="/style/img/slide1.jpg" alt="..." width="1168" height="800">
-			<div class="carousel-caption">
-				<h3 style="color:red;"><Chương Trình Khuyến Mãi</h3>
-				
-				
-           </div> 
-          </div>
+		  
       
         </div>
 
