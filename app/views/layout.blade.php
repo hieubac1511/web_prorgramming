@@ -13,11 +13,11 @@
     
     <!--BOOTSTRAP MAIN STYLES -->
 
-    <link href="style/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="style/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="style/css/private.css" rel="stylesheet" />
-    <script src = "style/js/boostrap.min.js" type="text/javascript"></script>
-    <script src = "style/js/jquery.js"type="text/javascript"></script>
+    <link href="/style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/style/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/style/css/private.css" rel="stylesheet" />
+    <script src = "/style/js/boostrap.min.js" type="text/javascript"></script>
+    <script src = "/style/js/jquery.js"type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
      <style>
@@ -76,23 +76,16 @@
         <div class="carousel-inner">
           <div class="item active" style="width: 1168px; height: 732px">
             <img src="/style/img/food1.jpg" alt="..." width="1168" height="400">
-            <div class="carousel-caption">
-              <h3>food1</h3>
-            </div>
-          </div>
+                      </div>
 
           <div class="item" style="width: 1168px; height: 732px">
-            <img src="style/img/food2.jpg" alt="..." width="1168" height="400">
-            <div class="carousel-caption">
-              <h3>food2</h3>
-            </div>
+            <img src="/style/img/food2.jpg" alt="..." width="1168" height="400">
+            
           </div>
         
           <div class="item" style="width: 1168px; height: 732px">
-            <img src="style/img/food3.jpg" alt="..." width="1168" height="800">
-            <div class="carousel-caption">
-              <h3>food3</h3>
-            </div>
+            <img src="/style/img/food3.jpg" alt="..." width="1168" height="800">
+            
           </div>
       
         </div>
@@ -115,7 +108,20 @@
             <div class="col-md-4 col-sm-4 text-center ">
                <div class="grid_4">
                     <h2 class="pad1">Welcome!</h2>
-                    <p class="mrg2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="mrg2">Toạ lạc tại khu vực Chợ lớn, Nhà hàng Green Moon – một thương hiệu quen thuộc với 
+người dân thành phố – đã tạo ấn tượng thật đặc biệt cho những ai một lần đến nơi này. 
+Khuôn viên sân vườn xanh mát khoe sắc nhiều chủng loại hoa phong lan tạo nên một thiên 
+nhiên trong lành giữa lòng thành phố. Vào buổi sáng ban mai, bạn có thể chọn cho mình 
+một góc vườn và ngồi thưởng thức những món điểm tâm Hongkong đặc sắc.
+
+Với phương châm lấy lợi ích của khách hàng làm mục đích hướng tới, Nhà hàng không chỉ 
+phục vụ các món điểm tâm đẹp về cách trang trí, mà còn đầy đủ dưỡng chất, tuân thủ 03 nguyên tắc ẩm thực của Phuthotourist: 
+hạn chế bột ngọt, giảm béo, tăng cường chất xơ…giúp quý khách có đủ năng lượng cần thiết để khởi đầu một ngày mới thành công.
+
+Nhà hàng Green Moon với khung cảnh nên thơ ấy cũng là nơi để bạn chia sẻ niềm vui 
+với gia đình và bạn bè bên những món ăn ngon đặc sắc, để những đối tác kinh doanh gặp nhau 
+thắt chặt mối giao thương. Và cũng đã có biết bao bạn trẻ gửi gắm niềm tin tổ chức tiệc cưới nơi đây. 
+Vẻ đẹp của loài hoa phong lan vừa dịu dàng, vừa lộng lẫy, kiêu sa làm xao xuyến tâm hồn những đôi</p>
                     <a class="a1" href="#">Read more</a>
                 </div>
             </div>
@@ -123,18 +129,21 @@
                 <div class="grid_4">
                     <h2 class="pad1">About <span>US</span></h2>
                     <div class="brd2">
-                        <span>Lorem ipsum dolor sit</span>
-                        Dolor sit amet conse ctetur adipisicing elit sed
+                        <span>Chefs</span>
+                        Bốn đầu bếp Ấn độ với kỹ năng hoàn hảo trong nghệ thuật ẩm thực 
                     </div>
 
                     <div class="brd2">
-                        <span>Dolor sit amet conse</span>
-                        Excepteur sint occaecat cupidatat non proident
+                        <span>Views</span>
+                        Khu vực ăn tối riêng biệt và ấm cúng cho gia đình, nhóm người.
+Khu vực dành cho những bữa tiệc trong nhà cho những khách hàng quen cho khoảng 50 người
+Ẩm thực ngoài trời được chuẩn bị và phục vụ bởi những đầu bếp Ấn độ của chúng tôi sẽ phục vụ các bạn bánh mì và Kebab nóng được nướng bằng than.
+Dịch vụ giao đồ ăn tận nhà miễn phí trong khu vực hợp lý, hoàn toàn nhanh và tươi trong những thùng chứa đồ ăn giữ nhiệt.
                     </div>
 
                     <div class="brd2 mrg3">
-                        <span>Ipsum dolor sit amet conse</span>
-                        Amet conse ctetur adipisicing elit sed
+                        <span>Foods</span>
+                        Các loại Hải sản đặc trưng của nhà hàng gồm có: Tôm Hùm, Cá Trình, Cá Tầm, Cá Mặt Quỷ, Ốc Vòi Voi, Ốc Hoàng Hậu, Ốc Kèn..
                     </div>
                     <a class="a1" href="#">Read more</a>
                 </div>
@@ -144,13 +153,17 @@
                 <div class="grid_4">
                     <div class="ban1" >
                         <h2>Book <span>A TABLE</span></h2>
-                        <p>Lorem ipsum dolor sit amet conse ctetur</p>
-                        <a class="a2" href="#">Book A Table</a>
+                        <p style="color : #fff;">Hãy sử dụng dịch vụ Book Online để được hỗ trợ tốt hơn !</p>
+                        <a class="a2" href="<?php echo URL::action('CheckoutController@getCheckout') ?>">Book A Table</a>
                     </div>
                     
                     <div class="ban2">
                         <h2>Our <span>Contacts</span></h2>
-                        <p>Cepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                        <p style="color : orange;">Nhà hàng Green Moon</p>
+                        <p style="color : orange;">Ðịa chỉ 268 Lý Thường Kiệt,P15, Q.11, TP Hồ Chí Minh.</p>  
+                        <p style="color : orange;">Ðiện thoại: (08) 38000000  .Fax: (08) 38000001 </p>
+                        <p style="color : orange;">Ðịa chỉ E-mail: info@****.com.vn .Website: www.****.com </p>
+                        <p style="color : orange;">Liên hệ đặt tiệc: Phòng đặt tiệc: 0906 723 734 (Mr.Four)</p>
                     </div>
             </div>
         </div>

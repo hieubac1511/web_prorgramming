@@ -1,5 +1,4 @@
 @extends('layout')
-
 @section('content')
 <!doctype html>
 <html>
@@ -12,7 +11,6 @@
         <script src = "/style/js/bootstrap.min.js" type="text/javascript"></script>
         <script src = "/style/js/jquery.js"type="text/javascript"></script>
     </head>
-
 
     <body>
         <h1>Đặt bàn</h1>
