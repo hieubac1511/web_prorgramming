@@ -146,7 +146,7 @@ một góc vườn và ngồi thưởng thức những món điểm tâm Hongkon
                         <span>Foods</span>
                         <p>Các loại Hải sản đặc trưng của nhà hàng gồm có: Tôm Hùm, Cá Trình, Cá Tầm, Cá Mặt Quỷ, Ốc Vòi Voi, Ốc Hoàng Hậu, Ốc Kèn..</p>
                     </div>
-                    <a class="a1" href="#">Read more</a>
+                    <a class="a1" href="<?php echo URL::action('AboutController@getAbout'); ?>">Read more</a>
                 </div>
             </div>
 
