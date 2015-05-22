@@ -33,4 +33,4 @@ Route::get('admin-login', function(){
 
 Route::controller('admin','AdminController');
 Route::controller('admin/panel','AdminController');
-
+Route::controller('about','AboutController');

@@ -47,7 +47,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         
-                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="<?php echo URL::action('AboutController@getAbout'); ?>">ABOUT</a></li>
                         <li><a href="#">SERVICES</a></li>
                         <li><a href="#">MENU</a></li>
                         <li><a href="#">GALLERY</a></li>
@@ -102,11 +102,11 @@
     <div class="container padding">
     @yield('content')
     </div>
-    <div class="container end">
-        <div class="row main-low-margin ">
+    <div class="footer">
+        <div class="row main-low-margin " style="background-image: url('/style/img/bg_5.jpg');">
             <div class="col-md-4 col-sm-4 text-center ">
                <div class="grid_4">
-                    <h2 class="pad1">Welcome!</h2>
+                    <h2 class="ban1"><span>Welcome!</span></h2>
                     <p class="mrg2">Toạ lạc tại khu vực Chợ lớn, Nhà hàng Green Moon – một thương hiệu quen thuộc với 
 người dân thành phố – đã tạo ấn tượng thật đặc biệt cho những ai một lần đến nơi này. 
 Khuôn viên sân vườn xanh mát khoe sắc nhiều chủng loại hoa phong lan tạo nên một thiên 
@@ -120,20 +120,20 @@ một góc vườn và ngồi thưởng thức những món điểm tâm Hongkon
                     <h2 class="pad1">About <span>US</span></h2>
                     <div class="brd2">
                         <span>Chefs</span>
-                        Bốn đầu bếp Ấn độ với kỹ năng hoàn hảo trong nghệ thuật ẩm thực 
+                        <p>Bốn đầu bếp Ấn độ với kỹ năng hoàn hảo trong nghệ thuật ẩm thực</p> 
                     </div>
 
                     <div class="brd2">
                         <span>Views</span>
-                        Khu vực ăn tối riêng biệt và ấm cúng cho gia đình, nhóm người.
-Khu vực dành cho những bữa tiệc trong nhà cho những khách hàng quen cho khoảng 50 người
-Ẩm thực ngoài trời được chuẩn bị và phục vụ bởi những đầu bếp Ấn độ của chúng tôi sẽ phục vụ các bạn bánh mì và Kebab nóng được nướng bằng than.
-Dịch vụ giao đồ ăn tận nhà miễn phí trong khu vực hợp lý, hoàn toàn nhanh và tươi trong những thùng chứa đồ ăn giữ nhiệt.
+                       <p> Khu vực ăn tối riêng biệt và ấm cúng cho gia đình, nhóm người.
+                            Khu vực dành cho những bữa tiệc trong nhà cho những khách hàng quen cho khoảng 50 người
+                            Ẩm thực ngoài trời được chuẩn bị và phục vụ bởi những đầu bếp Ấn độ của chúng tôi sẽ phục vụ các bạn bánh mì và Kebab nóng được nướng bằng than.
+                            Dịch vụ giao đồ ăn tận nhà miễn phí trong khu vực hợp lý, hoàn toàn nhanh và tươi trong những thùng chứa đồ ăn giữ nhiệt.<
                     </div>
 
                     <div class="brd2 mrg3">
                         <span>Foods</span>
-                        Các loại Hải sản đặc trưng của nhà hàng gồm có: Tôm Hùm, Cá Trình, Cá Tầm, Cá Mặt Quỷ, Ốc Vòi Voi, Ốc Hoàng Hậu, Ốc Kèn..
+                        <p>Các loại Hải sản đặc trưng của nhà hàng gồm có: Tôm Hùm, Cá Trình, Cá Tầm, Cá Mặt Quỷ, Ốc Vòi Voi, Ốc Hoàng Hậu, Ốc Kèn..</p>
                     </div>
                     <a class="a1" href="#">Read more</a>
                 </div>
@@ -149,11 +149,11 @@ Dịch vụ giao đồ ăn tận nhà miễn phí trong khu vực hợp lý, ho�
                     
                     <div class="ban2">
                         <h2>Our <span>Contacts</span></h2>
-                        <p style="color : orange;">Nhà hàng Green Moon</p>
-                        <p style="color : orange;">Ðịa chỉ 268 Lý Thường Kiệt,P15, Q.11, TP Hồ Chí Minh.</p>  
-                        <p style="color : orange;">Ðiện thoại: (08) 38000000  .Fax: (08) 38000001 </p>
-                        <p style="color : orange;">Ðịa chỉ E-mail: info@****.com.vn .Website: www.****.com </p>
-                        <p style="color : orange;">Liên hệ đặt tiệc: Phòng đặt tiệc: 0906 723 734 (Mr.Four)</p>
+                        <p style="color: #fff;">Nhà hàng Green Moon</p>
+                        <p style="color: #fff;">Ðịa chỉ 268 Lý Thường Kiệt,P15, Q.11, TP Hồ Chí Minh.</p>  
+                        <p style="color: #fff;">Ðiện thoại: (08) 38000000  .Fax: (08) 38000001 </p>
+                        <p style="color: #fff;">Ðịa chỉ E-mail: info@****.com.vn .Website: www.****.com </p>
+                        <p style="color: #fff;">Liên hệ đặt tiệc: Phòng đặt tiệc: 0906 723 734 (Mr.Four)</p>
                     </div>
             </div>
         </div>
