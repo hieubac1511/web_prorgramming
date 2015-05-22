@@ -70,6 +70,7 @@
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
+			  <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
 
         <!-- Wrapper for slides -->
@@ -85,6 +86,14 @@
           <div class="item" style="width: 1168px; height: 732px">
             <img src="/style/img/food3.jpg" alt="..." width="1168" height="800">
             
+          </div>
+		  <div class="item" style="width: 1168px; height: 732px">
+            <img src="/style/img/slide1.jpg" alt="..." width="1168" height="800">
+			<div class="carousel-caption">
+				<h3 style="color:red;"><Chương Trình Khuyến Mãi</h3>
+				
+				
+           </div> 
           </div>
       
         </div>
