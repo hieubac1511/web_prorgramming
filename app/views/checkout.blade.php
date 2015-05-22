@@ -41,9 +41,10 @@
                 <tr>
                     <td class="col-md-2"> Đặt Tiệc :</td>
                     <td><select id="type">
-                            <option value="Sinh Nhật" >Sinh Nhật</option>
-                            <option value="Đám cưới">Đám Cưới</option>
-                            <option value="Đầy tháng">Đầy Tháng</option>
+                            <option value="Sinh nhật" >Sinh nhật</option>
+                            <option value="Đám cưới">Đám cưới</option>
+                            <option value="Đầy tháng">Đầy tháng</option>
+                            <option value="Khác">Khác</option>
                         </select></td>
 
                 </tr>
@@ -73,6 +74,22 @@
 
         <button class = "btn-danger col-md-2" id="submitBtn">Checkout</button>
         <script>
+            function priceChange() {
+                var type = $('#type option:selected').text();
+                var tablePrice = 0;
+                if (type === "Sinh nhật")
+                    tablePrice = 100000;
+                if (type === "Đám cưới")
+                    tablePrice = 200000;
+                if (type === "Đầy tháng")
+                    tablePrice = 150000;
+                if (type === "Khác")
+                    tablePrice = 75000;
+                return $('#price').text(parseInt($('input[name=numbersoftable]').val()) * tablePrice);
+
+            }
+            $('input[name=numbersoftable]').keyup(function(){priceChange();});
+            $('#type').change(function(){priceChange();});
             $("#submitBtn").click(function () {
                 var name = $('input[name=name]').val().length;
                 var address = $('input[name=address]').val().length;
@@ -99,7 +116,8 @@
                         }
                     });
                 }
-                else alert("Some value is null");
+                else
+                    alert("Some value is null");
             });
         </script>
     </body>

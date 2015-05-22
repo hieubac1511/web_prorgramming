@@ -76,7 +76,12 @@
         <div class="carousel-inner">
           <div class="item active" style="width: 1168px; height: 732px">
             <img src="/style/img/food1.jpg" alt="..." width="1168" height="400">
+<<<<<<< HEAD
                       </div>
+=======
+            
+          </div>
+>>>>>>> 3c840be98af537d429135b7fb94940f5c21d98af
 
           <div class="item" style="width: 1168px; height: 732px">
             <img src="/style/img/food2.jpg" alt="..." width="1168" height="400">
